@@ -1,0 +1,66 @@
+body{
+  background-color: black;
+}
+
+#title{
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: underline red;
+  justify-content: center;
+  font-size: 100px;
+}
+  
+#main{
+  background-color: whitesmoke;
+  color: black;
+}
+
+#image{
+  height: auto;
+  width: auto;
+}
+
+#img-caption{
+  display: flex;
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+}
+
+#tribute-info{
+  font-size: large;
+}
+
+#tribute-link{
+  color: gray;
+}
+
+/* visited link */
+#tribute-link:visited {
+  color: green;
+}
+
+/* mouse over link */
+#tribute-link:hover {
+  color: rgba(255, 187, 0, 0.555);
+}
+
+/* selected link */
+#tribute-link:active {
+  color: blue;
+}
+
+  
+  @media only screen and (max-width: 600px) {
+    /* For mobile: */
+    #img-div{
+      max-height: 50%;
+      max-width: 50%;
+    }
+    #title{
+      font-size: 50px;
+    }
+  }
+  
