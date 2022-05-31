@@ -27,6 +27,7 @@ body{
   text-decoration-color: red;
   color: rgb(0, 0, 0);
   font-family: cursive;
+  border: 2px solid purple;
 }
 
 #tribute-info{
@@ -40,16 +41,19 @@ body{
 /* visited link */
 #tribute-link:visited {
   color: green;
+  font-weight: 100;
 }
 
 /* mouse over link */
 #tribute-link:hover {
   color: rgba(255, 187, 0, 0.555);
+  background-color: pink;
 }
 
 /* selected link */
 #tribute-link:active {
   color: blue;
+  font-size: 22px;
 }
 
   
